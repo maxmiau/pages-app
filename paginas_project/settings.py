@@ -25,7 +25,7 @@ SECRET_KEY = 'nvg_f=mxg^)$=7d8zhzxmb&p7rnr49s3h#b#-=6-8txkv7_ato'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] # Change to heroku
 
 
 # Application definition
